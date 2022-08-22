@@ -16,7 +16,7 @@
  - Data dictionary:
  
 | **Name**     | **Modeling Role** | **Measurement Level** | **Description**                     |
-|--------------|:-----------------:|:---------------------:|------------------------------------:| 
+|--------------|:----------------- |:--------------------- |:------------------------------------| 
 | ID           | ID                |  int                  | unique row indentifier              |
 | LIMIT_BAL    | input             |  floar                | amount of previously awarded credit |
 | SEX          | demographic information | int | 1 = male; 2 = female |
