@@ -19,4 +19,6 @@
 |--------------|:-----------------:|:---------------------:|------------------------------------:| 
 | ID           | ID                |  int                  | unique row indentifier              |
 | LIMIT_BAL    | input             |  floar                | amount of previously awarded credit |
-        
+| SEX          | demographic information |  | |
+
+
