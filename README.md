@@ -12,3 +12,5 @@
  - Primary intended users: Group 31.
  - Out-of-scope use cases: Any use beyond an educational example is out-of-scope.
 
+**Training Data**
+ - Data dictionary:
