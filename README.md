@@ -46,12 +46,14 @@
  - **Software used to implement the model**: Python, scikit-learn
  - **Version of the modeling software**: 0.22.2.post1
  - **Hyperparameters or other settings of your model**:
-`  DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
+```
+DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
                        max_depth=6, max_features=None, max_leaf_nodes=None,
                        min_impurity_decrease=0.0, min_impurity_split=None,
                        min_samples_leaf=1, min_samples_split=2,
                        min_weight_fraction_leaf=0.0, presort='deprecated',
-                       random_state=12345, splitter='best')``
+                       random_state=12345, splitter='best')
+```
 
 
 
