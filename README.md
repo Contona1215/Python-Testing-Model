@@ -72,7 +72,7 @@ DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
 
 - **Describe potential negative impacts of using your model**:
   - **Math or software problems**: The model consists more about the 0's in the target varibale than the 1's, which is a uncomprehensive result in the public.
-  - **Real-world risks**: who, what, when or how: The relatively poor performance of the ratio of Black-to-White and Hispanic-to-White might cause the controversy of civil right or gender equity.    When the model is used to increase people's credit limits, blacks and Hispanics receive less credit increases than similarly matched whites.
+  - **Real-world risks: who, what, when or how**: The relatively poor performance of the ratio of Black-to-White and Hispanic-to-White might cause the controversy of civil right or gender equity.    When the model is used to increase people's credit limits, blacks and Hispanics receive less credit increases than similarly matched whites.
 - **Describe potential uncertainties relating to the impacts of using your model**:
   - **Math or software problems**: Implicit bias may exist in the model data.
   - **Real-world risks: who, what, when or how**: May exposed to well-known risks such as DDOS or man-in-the-middle attacks, and packages it depends on could potentially be hacked to conceal an attack payload.
