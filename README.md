@@ -58,9 +58,7 @@ DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
 ## Quantitative Analysis
 - **Metrics used to evaluate the final model**:
   - Confusion metrics
-  - AUC & AIR graphs：
-  - AUC The Area Under The Curve, the closer the AUC is to 1, the closer the AUC is to 1, the better the model.
-  - AIR is Adverse Impact Ratio. AIR calculates the adverse impact ratio as a quotient between protected and reference group acceptence rates.
+  - AUC & AIR graphs：AUC = The area under the curve, AIR =
 - **The final values of the metrics for all data**:
   - Training AUC: 0.78
   - Validation AUC: 0.75
@@ -79,6 +77,8 @@ DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
 
 
 ![2](https://user-images.githubusercontent.com/111463982/186302745-7ac2f2e2-e1e6-4ad2-a7ad-16d2eed5f786.png)
+
+ - As we can see from the plot, accuracy racte of training data continous to improve as the tree depth increases, while the accuracy of validation data peaks at tree depth = 6. For the AIR of hispanic to white, we got an ok result at tree depth = [5:7]. As a result, we think tree depth = 6 is the best choice. 
 
 ## Ethical Considerations
 
