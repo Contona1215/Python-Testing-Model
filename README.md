@@ -69,7 +69,8 @@ DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
   - Hispanic-to-White AIR: 0.83
 
 **Ethical Considerations**
--**Describe potential negative impacts of using your model**:
+
+- **Describe potential negative impacts of using your model**:
   - **Math or software problems**: The model consists more about the 0's in the target varibale than the 1's, which is a uncomprehensive result in real world.
   - **Real-world risks**: who, what, when or how: The relatively poor performance of the ratio of Black-to-White and Hispanic-to-White might cause the controversy of civil right or gender equity.    When the model is used to increase people's credit limits, blacks and Hispanics receive less credit increases than similarly matched whites.
 - **Describe potential uncertainties relating to the impacts of using your model**:
