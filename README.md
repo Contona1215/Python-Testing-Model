@@ -44,7 +44,7 @@
  - **Column(s) used as target(s) in the final model**: 'DELINQ_NEXT'
  - **Type of model**: Decision Tree
  - **Software used to implement the model**: Python, scikit-learn
- - **Version of the modeling software**: 0.22.2.post1
+ - **Version of the modeling software**: 3.7.13
  - **Hyperparameters or other settings of your model**:
 ```
 DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
