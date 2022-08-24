@@ -58,7 +58,7 @@ DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
 ## Quantitative Analysis
 - **Metrics used to evaluate the final model**:
   - Confusion metrics
-  - AUC & AIR graphs
+  - AUC & AIR graphs：AUC = The area under the curve, AIR =
 - **The final values of the metrics for all data**:
   - Training AUC: 0.78
   - Validation AUC: 0.75
