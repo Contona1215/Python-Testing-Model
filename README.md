@@ -34,12 +34,12 @@
     - Training rows: 15,000
     - Validation rows: 7,500
 
-**Test Data**
+## Test Data
  - **Source of test data**: GWU Blackboard
  - **Number of rows in test data**: 7,500
  - **State any differences in columns between training and test data**: None
 
-**Model details**
+## Model details
  - **Columns used as inputs in the final model**: 'LIMIT_BAL', 'PAY_0', 'PAY_2', 'PAY_3', 'PAY_4', 'PAY_5', 'PAY_6', 'BILL_AMT1', 'BILL_AMT2', 'BILL_AMT3', 'BILL_AMT4', 'BILL_AMT5', 'BILL_AMT6', 'PAY_AMT1', 'PAY_AMT2', 'PAY_AMT3', 'PAY_AMT4', 'PAY_AMT5', 'PAY_AMT6'
  - **Column(s) used as target(s) in the final model**: 'DELINQ_NEXT'
  - **Type of model**: Decision Tree
@@ -66,7 +66,7 @@ DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
 ![2](https://user-images.githubusercontent.com/111463982/186302745-7ac2f2e2-e1e6-4ad2-a7ad-16d2eed5f786.png)
 
 
-**Quantitative Analysis**
+## Quantitative Analysis
 - **Metrics used to evaluate the final model**:
   - Confusion metrics
   - AUC graphs
@@ -79,7 +79,7 @@ DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
   - Female-to-Male AIR: 1.02
   - Hispanic-to-White AIR: 0.83
 
-**Ethical Considerations**
+## Ethical Considerations
 
 - **Describe potential negative impacts of using your model**:
   - **Math or software problems**: The model consists more about the 0's in the target varibale than the 1's, which is a uncomprehensive result in the public.
