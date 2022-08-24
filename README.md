@@ -69,8 +69,8 @@ DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
   - Hispanic-to-White AIR: 0.83
   
 **Correlation Heatmap**
-![Heat_Map](https://user-images.githubusercontent.com/111463982/186301813-1189f491-f997-4e44-b9e7-97440a95ae04.png)
 
+![Heat_Map](https://user-images.githubusercontent.com/111463982/186301813-1189f491-f997-4e44-b9e7-97440a95ae04.png)
 
 
 **Ethical Considerations**
