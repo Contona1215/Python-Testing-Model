@@ -57,8 +57,8 @@ DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
 
 **Quantitative Analysis**
 - **Metrics used to evaluate the final model**:
- - Confusion metrics
- - AUC graphs
+  - Confusion metrics
+  - AUC graphs
 - **The final values of the metrics for all data**:
   - Training AUC: 0.78
   - Validation AUC: 0.75
@@ -67,8 +67,16 @@ DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
   - Black-to-White AIR: 0.85
   - Female-to-Male AIR: 1.02
   - Hispanic-to-White AIR: 0.83
-**Correlation Heatmap**
 
-![download](https://user-images.githubusercontent.com/111463982/186035096-690b792d-3a45-4afc-bc34-f15ca9f7b5f8.png)
+**Ethical Considerations**
+-**Describe potential negative impacts of using your model**:
+  - **Math or software problems**: The model consists more about the 0's in the target varibale than the 1's, which is a uncomprehensive result in real world.
+  - **Real-world risks**: who, what, when or how: The relatively poor performance of the ratio of Black-to-White and Hispanic-to-White might cause the controversy of civil right or gender equity.    When the model is used to increase people's credit limits, blacks and Hispanics receive less credit increases than similarly matched whites.
+- **Describe potential uncertainties relating to the impacts of using your model**:
+  - **Math or software problems**: Implicit bias may exist in the model data.
+  - **Real-world risks**: who, what, when or how: May exposed to well-known risks such as DDOS or man-in-the-middle attacks, and packages it depends on could potentially be hacked to conceal an attack payload.
+- **Describe any unexpected or results**:
+  - When running this model, even with the same SEED, the results change slightly everytime. Also, the model might cause unacceptable reputational risk.
+
 
 
