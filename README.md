@@ -5,7 +5,7 @@
  - Model date: August, 2022
  - Model version: 1.0
  - License: Group 31
- - Model implementation code: https://colab.research.google.com/drive/1nbmjvzu4h2i9bWrcGS-8Cw9324P_TGKH?authuser=1#scrollTo=1E5B9hqpZrJr
+ - Model implementation code: 
 
 **Intended Use**
  - Primary intended uses: This model is an example probability of default classifier, with an example use case for determining eligibility for a credit line increase.
