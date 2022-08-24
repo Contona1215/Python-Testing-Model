@@ -82,7 +82,7 @@ DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
 
 - **Describe potential negative impacts of using your model**:
   - **Math or software problems**: The data has an artificially high proportion of 1s (defaults), typically we would expect less than 1% 1s (default) in a credit default problem. 
-  - **Real-world risks: who, what, when or how**: The values of the adverse impact ratio of Black & Hispanic people and Hispani & White people might cause the controversy of civil rights or gender equity. When the model is used to increase people's credit limits, Black & Hispanic people receive less credit increases than similarly situated whites.
+  - **Real-world risks: who, what, when or how**: The values of the adverse impact ratio of Black & Hispanic people and Hispani & White people might cause the controversy of civil rights or gender equity. When the model is used to increase people's credit limits, Black & Hispanic people receive less credit increases than similarly situated White people.
 - **Describe potential uncertainties relating to the impacts of using your model**:
   - **Math or software problems**: Implicit bias may exist in the model data.
   - **Real-world risks: who, what, when or how**: May exposed to well-known risks such as DDOS or man-in-the-middle attacks, and packages it depends on could potentially be hacked to conceal an attack payload.
