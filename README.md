@@ -55,17 +55,6 @@ DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
                        random_state=12345, splitter='best')
 ```
 
-- **Correlation Heatmap**
-
-![Heat_Map](https://user-images.githubusercontent.com/111463982/186301813-1189f491-f997-4e44-b9e7-97440a95ae04.png)
-
-
-- **Final Iteration Plot**
-
-
-![2](https://user-images.githubusercontent.com/111463982/186302745-7ac2f2e2-e1e6-4ad2-a7ad-16d2eed5f786.png)
-
-
 ## Quantitative Analysis
 - **Metrics used to evaluate the final model**:
   - Confusion metrics
@@ -79,7 +68,15 @@ DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
   - Female-to-Male AIR: 1.02
   - Hispanic-to-White AIR: 0.83
   
-  
+ - **Correlation Heatmap**
+
+![Heat_Map](https://user-images.githubusercontent.com/111463982/186301813-1189f491-f997-4e44-b9e7-97440a95ae04.png)
+
+
+- **Final Iteration Plot**
+
+
+![2](https://user-images.githubusercontent.com/111463982/186302745-7ac2f2e2-e1e6-4ad2-a7ad-16d2eed5f786.png)
 
 ## Ethical Considerations
 
