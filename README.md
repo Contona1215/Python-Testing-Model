@@ -5,8 +5,7 @@
  - Model date: August, 2022
  - Model version: 1.0
  - License: Group 31
- - Model implementation code: https://github.com/Contona1215/DNSC-6301-Project-G31/blob/main/DNSC6301_Group_31.ipynb
-
+ - Model implementation code: DNSC6301_Group_31.ipynb
 **Intended Use**
  - Primary intended uses: This model is an example probability of default classifier, with an example use case for determining eligibility for a credit line increase.
  - Primary intended users: Group 31.
