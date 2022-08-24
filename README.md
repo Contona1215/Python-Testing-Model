@@ -56,7 +56,17 @@ DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
 ```
 
 **Quantitative Analysis**
-
+- **Metrics used to evaluate the final model**:
+ - Confusion metrics
+ - AUC graphs
+- **The final values of the metrics for all data**:
+  - Training AUC: 0.78
+  - Validation AUC: 0.75
+  - Test AUC: 0.74
+  - Asian-to-White AIR: 1.00
+  - Black-to-White AIR: 0.85
+  - Female-to-Male AIR: 1.02
+  - Hispanic-to-White AIR: 0.83
 **Correlation Heatmap**
 
 ![download](https://user-images.githubusercontent.com/111463982/186035096-690b792d-3a45-4afc-bc34-f15ca9f7b5f8.png)
