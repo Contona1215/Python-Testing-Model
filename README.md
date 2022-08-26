@@ -3,9 +3,7 @@
 ## Basic Information
  - Person or organization developing model: Group 31: xinyuduan@gwu.edu, fdu100@gwu.edu, xiaosong.yao@gwu.edu, hanning.yu@gwu.edu
  - Model date: August, 2022
- - Model version: Model version: 1.0
-                  Python version: 3.7.13
-                  sklearn version: 1.0.2
+ - Model version: Model version: 1.0(Python version: 3.7.13, sklearn version: 1.0.2)
  - License: MIT
  - Model implementation code: [DNSC_6301_Project_G31](https://github.com/Contona1215/DNSC-6301-Project-G31/blob/main/6301_Group_31.ipynb)
 
@@ -46,7 +44,7 @@
  - **Column(s) used as target(s) in the final model**: 'DELINQ_NEXT'
  - **Type of model**: Decision Tree
  - **Software used to implement the model**: Python, scikit-learn
- - **Version of the modeling software**: 3.7.13, ipython 7.9.0
+ - **Version of the modeling software**: Model version: 1.0(Python version: 3.7.13, sklearn version: 1.0.2)
  - **Hyperparameters or other settings of your model**:
 ```
 DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
