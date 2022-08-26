@@ -70,6 +70,10 @@ DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
   - Female-to-Male AIR: 1.02
   - Hispanic-to-White AIR: 0.83
 
+- **Correlation Heatmap**
+
+![Heat_Map](https://user-images.githubusercontent.com/111463982/186793614-00bc10ba-5c20-4e33-bfe9-9498a22079f7.png)
+
 
 - **Final Iteration Plot**
 
