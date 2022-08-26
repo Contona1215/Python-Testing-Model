@@ -59,8 +59,7 @@ DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
 - **Metrics used to evaluate the final model**:
   - Confusion metrics
   - AUC & AIR graphs：
-    AUC is the area under the curve, the closer the AUC is to 1, the better the model.
-    AIR is adverse impact ratio, calculates the adverse impact ratio as a quotient between protected and reference group acceptance rates.
+    AIR is an adverse impact ratio, calculates the adverse impact ratio as a quotient between protected and reference group acceptance rates.
 - **The final values of the metrics for all data**:
   - Training AUC: 0.78
   - Validation AUC: 0.75
@@ -90,12 +89,12 @@ DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
 
 - **Describe potential negative impacts of using your model**:
   - **Math or software problems**: The data has an artificially high proportion of 1s (defaults), typically we would expect less than 1% 1s (default) in a credit default problem. 
-  - **Real-world risks: who, what, when or how**: The values of the adverse impact ratio for Black & Hispanic people might cause civil rights or gender equity controversy. When the model is used to increase people's credit limits, Black & Hispanic people receive less credit increases than similarly situated White people. The model might cause unacceptable legal or reputational risk.
+  - **Real-world risks: who, what, when, or how**: The values of the adverse impact ratio for Black & Hispanic people might cause civil rights or gender equity controversy. When the model is used to increase people's credit limits, Black & Hispanic people receive fewer credit increases than similarly situated White people. The model might cause unacceptable legal or reputational risk.
 - **Describe potential uncertainties relating to the impacts of using your model**:
   - **Math or software problems**: Implicit bias may exist in the model and data.
-  - **Real-world risks: who, what, when or how**: The model may be exposed to well-known risks such as DDOS or man-in-the-middle attacks, and packages it depends on could potentially be hacked to conceal an attack payload.
-- **Describe any unexpected or results**:
-  - When running this model, even with the same SEED, the results change slightly everytime. Also, the model might cause unacceptable reputational risk.
+  - **Real-world risks: who, what, when, or how**: The model may be exposed to well-known risks such as DDOS or man-in-the-middle attacks, and packages it depends on could potentially be hacked to conceal an attack payload.
+- **Describe any unexpected results**:
+  - When running this model, even with the same SEED, the results change slightly every time. Also, the model might cause unacceptable reputational risk.
 
 
 
