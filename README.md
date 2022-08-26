@@ -74,6 +74,9 @@ DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
 
 ![Heat_Map](https://user-images.githubusercontent.com/111463982/186793614-00bc10ba-5c20-4e33-bfe9-9498a22079f7.png)
 
+- **Histogram**
+![Histogram](https://user-images.githubusercontent.com/111463982/186793889-84d19fbd-d3a8-46ea-8c35-89e54e504bb6.png)
+
 
 - **Final Iteration Plot**
 
