@@ -74,11 +74,13 @@ DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
 ![Heat_Map](https://user-images.githubusercontent.com/111463982/186793614-00bc10ba-5c20-4e33-bfe9-9498a22079f7.png)
 
   - The table shows how two variables are correlated with each other using Pearson correlation matrix, the light part shows the strong correlation is -1.
+  - According to the heat map, we can see race the outcome are negatively correlated, indicating that there might be discrimination towards certian groups of people. We can also see that payment records are among the most influencial factors of the result. a lot of other factors contributes very little towards the result.
 
 - **Histogram**
 
 ![Histogram](https://user-images.githubusercontent.com/111463982/186793889-84d19fbd-d3a8-46ea-8c35-89e54e504bb6.png)
 
+  - These are histograms, and it shows that most of the data is skewed in nature.
 
 - **Final Iteration Plot**
 
