@@ -88,6 +88,7 @@ DecisionTreeClassifier('ccp_alpha': 0.0,
 
 
   - These are histograms, and it shows that most of the data is skewed in nature.
+  - Female has higher credit limits than male, while White and Asian customers has higher credit limit than hispanic and black customers. 
 
 - **Final Iteration Plot**
 
