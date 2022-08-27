@@ -78,7 +78,8 @@ DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
 
 - **Histogram**
 
-![Histogram](https://user-images.githubusercontent.com/111463982/186793889-84d19fbd-d3a8-46ea-8c35-89e54e504bb6.png)
+<img width="453" alt="截屏2022-08-27 下午6 01 11" src="https://user-images.githubusercontent.com/111463982/187049466-57d7d163-0f85-4453-b7a5-3c4ff6d3d2ba.png">
+
 
   - These are histograms, and it shows that most of the data is skewed in nature.
 
